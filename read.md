@@ -14,3 +14,8 @@
 
 ### pull 和 push的简写:
 - 在push时,加上-u参数,name在下一次push时,只需要写上`git push`就可以上传代码了.
+	+`git remote add origin git@github.com:newMrc/text.git`相当于设置`origin = git@github.com:newMrc/text.git`
+
+	+`git push origin -u master`会把当前分支与远程的指定分支进行关联
+
+	+ 在push和pull是就可以直接写`git push`和`git pull`了
